@@ -1,0 +1,30 @@
+.post{
+    width:60%;
+    display: flex;
+    margin:40px auto;
+}
+.post img{
+    height:180px;
+}
+.text-container{
+    margin-left:10px;
+}
+.text-container h1{
+    font-size: 28px;
+}
+.info{
+    margin:10px 0px;
+
+}
+.author{
+    font-weight: bold;
+    margin-right:7px;
+    font-size:14px;
+}
+.date{
+    color: rgba(128, 128, 128, 0.961);
+}
+.desc{
+    font-size:15px;
+    
+}
