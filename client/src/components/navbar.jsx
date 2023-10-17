@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/navbar.css'
 import '../index.css'
 import logo from '../assets/logo.png'
+import { Link } from 'react-router-dom'
 export const Navbar = () => {
   return (
     <nav>
@@ -10,8 +11,8 @@ export const Navbar = () => {
       </div>
       <div className='navbar'>
         <ul>
-          <li><a href=''>Login</a></li>
-          <li><a href=''>Register</a></li>
+          <li><Link to='/login'>Login</Link></li>
+          <li><Link to='/register'>Register</Link></li>
         </ul>
       </div>
     </nav>

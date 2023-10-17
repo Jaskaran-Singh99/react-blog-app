@@ -1,0 +1,31 @@
+.login,.register{
+    width:400px;
+    margin:0 auto;
+}
+input{
+    display: block;
+    margin-bottom:5px;
+    width:100%;
+    padding:5px 7px;
+    border:2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    outline:none;
+    margin:5px 0px;
+    padding:10px 0px;
+}
+button{
+    width: 100%;
+    display: block;
+    background-color: rgb(67, 34, 0);
+    color:white;
+    padding:7px 10px;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+h1{
+    text-align:center;
+    margin-bottom:10px;
+    margin-top:40px;
+}
