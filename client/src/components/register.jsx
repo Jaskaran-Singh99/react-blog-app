@@ -13,11 +13,11 @@ export const Register = () => {
         headers:{'Content-type':'application/json'}
       })
       if(res.ok){
-        console.log(res)
+        alert('New user created')
       }
     }
     catch(err){
-      console.log(err)
+      alert('Please enter valid credentials')
     }
   }
   return (
@@ -27,8 +27,8 @@ export const Register = () => {
        className='username'
        onChange={(e)=>{setUsername(e.target.value)}} 
        ></input>
-      <input placeholder=' Password' className='password' type='password' onChange={(e)=>{setPassword(e.target.value)}} ></input>
+      <input placeholder='Password' className='password' type='password' onChange={(e)=>{setPassword(e.target.value)}} ></input>
       <button >Register</button>
-    </form>
+    </form> 
   )
 }

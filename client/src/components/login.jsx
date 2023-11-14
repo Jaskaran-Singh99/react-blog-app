@@ -13,11 +13,15 @@ export const Login = () => {
     const res = await fetch('http://localhost:4000/login',{
       method:'POST',
       body:JSON.stringify({username, password}),
-      headers:{'Content-type':'application/json'}
+      headers:{'Content-type':'application/json'},
+      credentials:'include'
     })
 
     if(res.ok){
-      setRedirect(true)
+      setRedirect(true) 
+    }
+    else{
+      console.log('There is some error')
     }
   }
   if(redirect){
